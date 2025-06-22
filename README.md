@@ -3,7 +3,7 @@
 > Official PyTorch implementation of our method proposed in the paper:  
 > **"Dual Prior-Guided Two-Stage Framework for Small-Sample Ultrasound Image Segmentation"**  
 > 📌 Accepted/Submitted to MICCAI 2025  
-> 📅 Project based on the DDTI dataset for medical ultrasound image segmentation.
+> 📅 Project based on the DDTI dataset and others for medical ultrasound image segmentation.
 
 ## 🧠 Overview
 
