@@ -16,26 +16,8 @@ Ultrasound image segmentation is crucial for medical-assisted diagnosis but face
 
 To tackle these, we propose a **Dual Prior-Guided Cross-Domain Adaptive Framework**, which enhances segmentation robustness and generalization under limited data.  
 
-### 🔧 Key Contributions
+## 📊 Results
 
-#### Stage 1: Domain Adaptation Pretraining with Prior Guidance
-
-- Uses **prior classification on small-sample data** to guide **domain adaptation pretraining** on large-scale datasets of the same category.
-- Introduces **dynamic class balancing** to mitigate data distribution bias during adaptation.
-
-#### Stage 2: Multi-Level Feature Fusion Segmentation
-
-- ⚙️ **Multi-branch Convolutional Parallel Attention:**  
-  Captures multi-scale contextual features using parallel dilated convolutions and dual (channel + spatial) attention.
-
-- 🌀 **Multi-scale Fusion Dilated Convolution:**  
-  Enhances boundary representation through hierarchical receptive fields and dilated convolutions.
-
-- 🧩 **Enhanced Feature Decoding:**  
-  Utilizes shallow high-resolution features via cross-layer compensation to restore spatial detail in deep features.
-
-#### 🔁 Dual-Stream Interactive Architecture
-
-- Bridges the classification and segmentation tasks.
-- Features are exchanged via **cross-task attention**, improving semantic consistency and robustness.
-
+![128](https://github.com/user-attachments/assets/44812a85-113d-409d-826e-9c690c8e1304)
+![10324](https://github.com/user-attachments/assets/9682f28a-b744-45ad-9801-33bf56c4036f)
+![20454](https://github.com/user-attachments/assets/036e6889-947b-4c76-bb2f-7706205d577f)
