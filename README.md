@@ -1,4 +1,4 @@
-# Dual Prior-Guided Two-Stage Framework for Small-Sample Ultrasound Image Segmentation
+# DPGS-Net: Dual Prior-Guided Cross-Domain Adaptive Framework for Ultrasound Image Segmentation
 
 > Official PyTorch implementation of our method proposed in the paper:  
 > **"Dual Prior-Guided Two-Stage Framework for Small-Sample Ultrasound Image Segmentation"**  
@@ -14,7 +14,7 @@ Ultrasound image segmentation is crucial for medical-assisted diagnosis but face
 - Feature contradiction due to different acquisition angles  
 - Difficulty generalizing under small-sample data conditions
 
-To tackle these, we propose a **Dual Prior-Guided Two-Stage Segmentation Framework**, which enhances segmentation robustness and generalization under limited data.  
+To tackle these, we propose a **Dual Prior-Guided Cross-Domain Adaptive Framework**, which enhances segmentation robustness and generalization under limited data.  
 
 ### 🔧 Key Contributions
 
@@ -25,13 +25,13 @@ To tackle these, we propose a **Dual Prior-Guided Two-Stage Segmentation Framewo
 
 #### Stage 2: Multi-Level Feature Fusion Segmentation
 
-- ⚙️ **Multi-branch Convolutional Parallel Attention (MCPA):**  
+- ⚙️ **Multi-branch Convolutional Parallel Attention:**  
   Captures multi-scale contextual features using parallel dilated convolutions and dual (channel + spatial) attention.
 
-- 🌀 **Multi-scale Fusion Dilated Convolution (MFDC):**  
+- 🌀 **Multi-scale Fusion Dilated Convolution:**  
   Enhances boundary representation through hierarchical receptive fields and dilated convolutions.
 
-- 🧩 **Enhanced Feature Decoding (EFD):**  
+- 🧩 **Enhanced Feature Decoding:**  
   Utilizes shallow high-resolution features via cross-layer compensation to restore spatial detail in deep features.
 
 #### 🔁 Dual-Stream Interactive Architecture
